@@ -5,9 +5,7 @@ customerManager.GiveCredit();
 TeacherCreditManager teacherCreditManager = new TeacherCreditManager();
 teacherCreditManager.Save();
 
-/* Burası Interface konusundan önceki çalışmaları kapsamaktadır.
-
-int[] numbers1 = new int[] { 1, 2, 3 };
+/* int[] numbers1 = new int[] { 1, 2, 3 };
 int[] numbers2 = new int[] { 10, 20, 30 };
 numbers1 = numbers2;
 numbers2[0] = 1000;
@@ -42,6 +40,13 @@ Customer c1 = new Customer();
 Customer c2 = new Person();
 Customer c3 = new Company();
 */
+
+//IoC Container
+CustomerManager customerManager = new CustomerManager(new Customer(), new TeacherCreditManager());
+customerManager.GiveCredit();
+
+TeacherCreditManager teacherCreditManager = new TeacherCreditManager();
+teacherCreditManager.Save();
 Console.ReadLine();
 
 class CreditManager
@@ -94,7 +99,7 @@ class TeacherCreditManager : BaseCreditManager, ICreditManager
     }
 }
 
-//Ordudaki askerlere verilen kredi
+//Asker kredisi
 class MilitaryCreditManager : BaseCreditManager, ICreditManager
 {
     public override void Calculate()
