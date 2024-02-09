@@ -1,0 +1,14 @@
+/Users/okan/Desktop/oopdemo/bin/Debug/net8.0/oopdemo
+/Users/okan/Desktop/oopdemo/bin/Debug/net8.0/oopdemo.deps.json
+/Users/okan/Desktop/oopdemo/bin/Debug/net8.0/oopdemo.runtimeconfig.json
+/Users/okan/Desktop/oopdemo/bin/Debug/net8.0/oopdemo.dll
+/Users/okan/Desktop/oopdemo/bin/Debug/net8.0/oopdemo.pdb
+/Users/okan/Desktop/oopdemo/obj/Debug/net8.0/oopdemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/okan/Desktop/oopdemo/obj/Debug/net8.0/oopdemo.AssemblyInfoInputs.cache
+/Users/okan/Desktop/oopdemo/obj/Debug/net8.0/oopdemo.AssemblyInfo.cs
+/Users/okan/Desktop/oopdemo/obj/Debug/net8.0/oopdemo.csproj.CoreCompileInputs.cache
+/Users/okan/Desktop/oopdemo/obj/Debug/net8.0/oopdemo.dll
+/Users/okan/Desktop/oopdemo/obj/Debug/net8.0/refint/oopdemo.dll
+/Users/okan/Desktop/oopdemo/obj/Debug/net8.0/oopdemo.pdb
+/Users/okan/Desktop/oopdemo/obj/Debug/net8.0/oopdemo.genruntimeconfig.cache
+/Users/okan/Desktop/oopdemo/obj/Debug/net8.0/ref/oopdemo.dll
