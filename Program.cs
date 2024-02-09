@@ -1,9 +1,3 @@
-﻿//IoC Container
-CustomerManager customerManager = new CustomerManager(new Customer(), new TeacherCreditManager());
-customerManager.GiveCredit();
-
-TeacherCreditManager teacherCreditManager = new TeacherCreditManager();
-teacherCreditManager.Save();
 
 /* int[] numbers1 = new int[] { 1, 2, 3 };
 int[] numbers2 = new int[] { 10, 20, 30 };
